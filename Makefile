@@ -1,13 +1,13 @@
 
 SVN=pr2_force_torque_calibration
-SVN_URL=https://code.ros.org/svn/wg-ros-pkg/pr2_mods/pr2_force_torque_calibration
-REV=55338
+SVN_URL=https://github.com/pr2-debs/pr2_force_torque_calibration
+
 
 all: ${SVN}
 .PHONY: all
 
 ${SVN}:
-	svn co -r ${REV} ${SVN_URL}
+	svn co -r ${SVN_URL}
 
 install-dirs:
 	mkdir -p ${DESTDIR}/usr/share/pr2-ft
