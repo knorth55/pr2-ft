@@ -7,7 +7,7 @@ all: ${SVN}
 .PHONY: all
 
 ${SVN}:
-	svn co -r ${SVN_URL}
+	svn co ${SVN_URL}
 
 install-dirs:
 	mkdir -p ${DESTDIR}/usr/share/pr2-ft
