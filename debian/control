@@ -7,6 +7,6 @@ Standards-Version: 3.7.2
 
 Package: pr2-ft
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3
 Description: Installs the pr2-ft-config program which makes it easier to configure Force-Torque sensors on the PR2
 
