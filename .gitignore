@@ -1,0 +1,8 @@
+build-stamp
+configure-stamp
+debian/.debhelper/*
+debian/files
+debian/pr2-ft.debhelper.log
+debian/pr2-ft.substvars
+debian/pr2-ft/*
+pr2_force_torque_calibration/*
